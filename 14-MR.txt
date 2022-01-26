@@ -1,0 +1,7 @@
+Grupos("id_grupo", Nombre, Nº Contactos, "Identificador")
+Comentarios("Codigo_comentario", texto, foto)
+Ven("id_grupo", "Codigo_comentario")
+Usuarios("Identificador", Contraseña, Nombre, Apellidos, Dirección, Teléfono, Email, Foto)
+Ven("Identificador", "Codigo_comentario", Usuario_permitido)
+Bloqueados("Identificador Rol 1", "Identificador Rol 2", Contraseña, Nombre, Apellidos, Dirección, Teléfono, Email, Foto)
+Contactos("Identificador Rol 1", "Identificador Rol 2", Contraseña, Nombre, Apellidos, Dirección, Teléfono, Email, Foto, Descripción)
